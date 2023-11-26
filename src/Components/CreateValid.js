@@ -19,9 +19,10 @@ function Create() {
       console.log("added");
       console.log("data");
       await axios.post("/create", data);
+       navigate("/posts");
       alert("Post created");
       reset();
-      navigate("/posts");
+     
     } catch (errors) {
       console.log(errors);
     }
