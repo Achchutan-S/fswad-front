@@ -14,12 +14,12 @@ function Create() {
 
   const navigate = useNavigate();
 
-  const onSubmit = async (data) => {
+  const onSubmit = (data) => {
     try {
       console.log("added");
       console.log("data");
-      await axios.post("/create", data);
-       navigate("/posts");
+      axios.post("/create", data);
+      navigate("/posts");
       alert("Post created");
       reset();
      
