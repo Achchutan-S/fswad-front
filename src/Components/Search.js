@@ -81,6 +81,7 @@ function Search() {
             }}
           >
             <h2>{post.name}</h2>
+            <p>{post._id}</p>
             <p>{post.cNum}</p>
             <p>{post.city}</p>
             <p>{post.state}</p>
