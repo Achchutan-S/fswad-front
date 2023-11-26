@@ -13,13 +13,13 @@ function Navbar() {
         padding: "10px",
       }}
     >
-      <h1>This is the Navbar</h1>
+      <h1>Customer CRUD</h1>
       <ul
         style={{
           listStyleType: "none",
           display: "flex",
           flexDirection: "row",
-          gap: "200px",
+          gap: "20px",
         }}
       >
         <li>
